@@ -1,8 +1,5 @@
 package models.components;
 
-import driver.DriverFactory;
-import org.openqa.selenium.WebDriver;
-
 import java.lang.reflect.Constructor;
 
 public class ComponentExploring {

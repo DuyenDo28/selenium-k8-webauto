@@ -22,7 +22,13 @@ public class Component {
         this.driver = driver;
         this.component = component;
         this.wait = new WebDriverWait(this.driver, Duration.ofSeconds(15));
+
     }
+
+    public WebElement getComponent() {
+        return component;
+    }
+
 
     public WebElement findElement(By by) {
         return component.findElement(by);
@@ -53,7 +59,7 @@ public class Component {
         Constructor<T> constructor;
         try {
             constructor = componentClass.getConstructor(params);
-        } catch (Exception e){
+        } catch (Exception e) {
             throw new IllegalArgumentException(
                     "[ERR] The component must have a constructor with params " + Arrays.toString(params));
         }
@@ -71,13 +77,12 @@ public class Component {
         return components;
     }
 
-    private By getCompSelector(Class<? extends Component> componentClass){
-        if(componentClass.isAnnotationPresent(ComponentCssSelector.class)){
+    private By getCompSelector(Class<? extends Component> componentClass) {
+        if (componentClass.isAnnotationPresent(ComponentCssSelector.class)) {
             return By.cssSelector(componentClass.getAnnotation(ComponentCssSelector.class).value());
-        }
-        else if(componentClass.isAnnotationPresent(ComponentXpathSelector.class)){
+        } else if (componentClass.isAnnotationPresent(ComponentXpathSelector.class)) {
             return By.xpath(componentClass.getAnnotation(ComponentXpathSelector.class).value());
-        }else{
+        } else {
             throw new IllegalArgumentException("Component class" + componentClass + "must have annotation"
                     + ComponentCssSelector.class.getSimpleName() + "or" + ComponentXpathSelector.class.getSimpleName());
         }
