@@ -80,14 +80,16 @@ public class FooterTestFlow {
         if(mainCatsElem.isEmpty()) {
             Assert.fail("[ERR] There is no item on top menu!");
         }
+        //random những main item như book, computer
         MainCatItem randomMainItemElem = mainCatsElem.get(new SecureRandom().nextInt(mainCatsElem.size()));
         // hard code de test item tai index1
-       // MainCatItem randomMainItemElem = mainCatsElem.get(1);
+        // randomMainItemElem = mainCatsElem.get(1);
         String randomCatHref = randomMainItemElem.catItemLinkElem().getAttribute("href");
 
         // Get sublist
         List<CatItemComponent> catItemComps = randomMainItemElem.catItemComps();
         if(catItemComps.isEmpty()){
+
             randomMainItemElem.catItemLinkElem().click();
         }
         else {
@@ -98,7 +100,7 @@ public class FooterTestFlow {
         }
         try {
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-            wait.until(ExpectedConditions.urlContains("randomCatHref"));
+            wait.until(ExpectedConditions.urlContains(randomCatHref));
         } catch (TimeoutException e) {
             Assert.fail("[ERR] target page is not matched!");
         }

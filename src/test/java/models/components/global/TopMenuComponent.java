@@ -16,21 +16,22 @@ public class TopMenuComponent extends Component {
         super(driver, component);
     }
 
-    public List<MainCatItem> mainItemsElem(){
-     return findComponents(MainCatItem.class, driver);
+    public List<MainCatItem> mainItemsElem() {
+        return findComponents(MainCatItem.class, driver);
     }
+
     @ComponentCssSelector(".top-menu > li")
-    public static class MainCatItem extends Component{
+    public static class MainCatItem extends Component {
 
         public MainCatItem(WebDriver driver, WebElement component) {
             super(driver, component);
         }
 
-        public WebElement catItemLinkElem(){
+        public WebElement catItemLinkElem() {
             return component.findElement(By.tagName("a"));
         }
 
-        public List<CatItemComponent> catItemComps(){
+        public List<CatItemComponent> catItemComps() {
             Actions actions = new Actions(driver);
             actions.moveToElement(component).perform();
             return findComponents(CatItemComponent.class, driver);
@@ -38,7 +39,7 @@ public class TopMenuComponent extends Component {
     }
 
     @ComponentCssSelector(".sublist li a")
-    public static class CatItemComponent extends  Component {
+    public static class CatItemComponent extends Component {
 
         public CatItemComponent(WebDriver driver, WebElement component) {
             super(driver, component);
