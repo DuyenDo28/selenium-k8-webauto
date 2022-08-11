@@ -11,26 +11,30 @@ public class FooterTest {
     @Test()
     public void testFooterCategoryPage() {
         WebDriver driver = DriverFactory.getChromeDriver();
-        try{
+        try {
             driver.get(Urls.demoBaseUrl);
             FooterTestFlow footerTestFlow = new FooterTestFlow(driver);
-            footerTestFlow.verifyProductCatFooterComponent();
-        }catch(Exception e){
+            //footerTestFlow.verifyProductCatFooterComponent();
+            footerTestFlow.verifyFooterComponent();
+        } catch (Exception e){
             e.printStackTrace();
         } finally {
             driver.quit();
         }
+
     }
+
     @Test()
     public void testFooterRegisterPage() {
+
     }
+
     @Test()
     public void testFooterLoginPage() {
-
     }
+
     @Test()
     public void testFooterHomePage() {
-
     }
 
 }

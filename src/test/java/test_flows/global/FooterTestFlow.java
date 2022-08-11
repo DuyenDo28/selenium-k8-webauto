@@ -3,7 +3,7 @@ package test_flows.global;
 
 import models.components.global.TopMenuComponent;
 import static models.components.global.TopMenuComponent.MainCatItem;
-import static models.components.global.TopMenuComponent.CatItemComponent;
+import static models.components.global.TopMenuComponent.SublistComponent;
 import models.components.global.footer.FooterColumnComponent;
 import models.components.global.footer.FooterComponent;
 import models.pages.BasePage;
@@ -76,25 +76,26 @@ public class FooterTestFlow {
         // Random pickup an Item
         BasePage basePage = new BasePage(driver);
         TopMenuComponent topMenuComp = basePage.topMenuComp();
+        // danh sách các main item như book, computer...
         List<MainCatItem> mainCatsElem = topMenuComp.mainItemsElem();
         if(mainCatsElem.isEmpty()) {
             Assert.fail("[ERR] There is no item on top menu!");
         }
-        //random những main item như book, computer
+        //random những main item như book, computer...
         MainCatItem randomMainItemElem = mainCatsElem.get(new SecureRandom().nextInt(mainCatsElem.size()));
         // hard code de test item tai index1
         // randomMainItemElem = mainCatsElem.get(1);
         String randomCatHref = randomMainItemElem.catItemLinkElem().getAttribute("href");
 
-        // Get sublist
-        List<CatItemComponent> catItemComps = randomMainItemElem.catItemComps();
-        if(catItemComps.isEmpty()){
+        // Get sublist, danh sách các items con nằm trong book, computer...
+        List<SublistComponent> sublistComponents = randomMainItemElem.sublistComps();
+        if(sublistComponents.isEmpty()){
 
             randomMainItemElem.catItemLinkElem().click();
         }
         else {
-            int randomIndex = new SecureRandom().nextInt(catItemComps.size());
-            CatItemComponent randomCatItemComp = catItemComps.get(randomIndex);
+            int randomIndex = new SecureRandom().nextInt(sublistComponents.size());
+            SublistComponent randomCatItemComp = sublistComponents.get(randomIndex);
             randomCatHref = randomCatItemComp.getComponent().getAttribute("href");
             randomCatItemComp.getComponent().click();
         }
