@@ -7,18 +7,18 @@ import org.openqa.selenium.WebDriver;
 public class OrderComputerFlow<T extends ComputerEssentialComponent> {
 
     private final WebDriver driver;
-    private final Class<T> computerEssentialComponent;
+    private final Class<T> computerEssentialComponentt;
 
     public OrderComputerFlow(WebDriver driver, Class<T> computerEssentialComponent) {
         this.driver = driver;
-        this.computerEssentialComponent = computerEssentialComponent;
+        this.computerEssentialComponentt = computerEssentialComponent;
     }
 
     public void buildCompSpecAndAddToCart() {
         ComputerItemDetailsPage computerItemDetailsPage = new ComputerItemDetailsPage(driver);
-        T computerEssentialComp = computerItemDetailsPage.computerComp(computerEssentialComponent);
-        computerEssentialComp.selectProcessorType("Fast");
-        computerEssentialComp.selectRAMType("4 GB");
+        T computerEssentialCompp = computerItemDetailsPage.computerComp(computerEssentialComponentt);
+        computerEssentialCompp.selectProcessorType("Fast");
+        computerEssentialCompp.selectRAMType("4 GB");
 
     }
 

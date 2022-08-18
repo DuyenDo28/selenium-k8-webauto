@@ -15,7 +15,8 @@ public class BuyingCheapComputerTest extends BaseTest implements Urls {
         OrderComputerFlow<CheapComputerComponent> orderComputerFlow =
                 new OrderComputerFlow<>(driver, CheapComputerComponent.class);
 
-        orderComputerFlow.buildCompSpecAndAddToCart();
+
+       // orderComputerFlow.buildCompSpecAndAddToCart();
 
     }
 }
