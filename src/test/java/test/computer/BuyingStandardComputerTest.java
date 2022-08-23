@@ -13,18 +13,19 @@ import url.Urls;
 public class BuyingStandardComputerTest extends BaseTest implements Urls {
 
     @Test(dataProvider = "computerData")
-    public void testStandardComputerBuying(ComputerData computerData){
+    public void testStandardComputerBuying(ComputerData computerData) {
         driver.get(demoBaseUrl.concat("/build-your-own-computer"));
 
         OrderComputerFlow<StandardComputerComponent> orderComputerFlow =
                 new OrderComputerFlow<>(driver, StandardComputerComponent.class, computerData);
 
         orderComputerFlow.buildCompSpecAndAddToCart();
+        orderComputerFlow.verifyShoppingCartPage();
 
     }
 
     @DataProvider
-    public ComputerData[] computerData(){
+    public ComputerData[] computerData() {
         String fileLocation = "/src/test/java/test_data/computer/StandardComputerDataList.json";
         return DataObjectBuilder.buildDataObjectFrom(fileLocation, ComputerData[].class);
 
