@@ -11,15 +11,20 @@ public class Dropdown implements Urls {
 
     public static void main(String[] args) {
 
+        // Get a chrome session
         WebDriver driver = DriverFactory.getChromeDriver();
 
-        try{
+        try {
+            // Navigate to target base
             driver.get(baseUrl.concat(dropdownSlug));
+
+            // Dropdown locator & element
             By dropdownSel = By.id("dropdown");
             WebElement dropdownElem = driver.findElement(dropdownSel);
 
-            // select dropdown
+            // Select dropdown
             SelectEx select = new SelectEx(dropdownElem);
+
             // Select by visible text | Option 1
             select.selectOption1();
             Thread.sleep(1000);
@@ -32,8 +37,8 @@ public class Dropdown implements Urls {
             select.selectByValue("1");
             Thread.sleep(1000);
 
-        }catch (Exception e){
-
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         driver.quit();

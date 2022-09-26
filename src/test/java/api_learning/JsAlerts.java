@@ -66,4 +66,5 @@ public class JsAlerts implements Urls {
         triggerJsAlertBtnElem.click();
         return wait.until(ExpectedConditions.alertIsPresent());
     }
+
 }

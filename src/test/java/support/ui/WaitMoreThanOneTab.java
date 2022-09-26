@@ -10,7 +10,6 @@ public class WaitMoreThanOneTab implements ExpectedCondition<Boolean> {
         return driver.getWindowHandles().size() > 1;
     }
 
-
     @Override
     public String toString() {
         return "tab numbers to be bigger than 2!";

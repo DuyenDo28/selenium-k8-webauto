@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LinkTestInteraction {
+
     public static void main(String[] args) {
 
         // Get a chrome session

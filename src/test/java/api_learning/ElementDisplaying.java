@@ -2,8 +2,10 @@ package api_learning;
 
 import driver.DriverFactory;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -18,7 +20,7 @@ public class ElementDisplaying {
         driver.get("https://the-internet.herokuapp.com/login");
 
         List<WebElement> elementList = driver.findElements(By.tagName("taolao"));
-        if(!elementList.isEmpty())
+        if (!elementList.isEmpty())
             // Assert.fail("reason......");
 
             // Quit the browser session

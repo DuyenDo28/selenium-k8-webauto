@@ -18,7 +18,7 @@ public class IFrame implements Urls {
             driver.get(baseUrl.concat(iframeSlug));
 
             // Locate the iframe
-            By iFrameSel = By.cssSelector("#mce_0_ifr");
+            By iFrameSel = By.cssSelector("[id$='ifr']");
             WebElement iFrameElem = driver.findElement(iFrameSel);
 
             // Switch to the iframe
@@ -33,8 +33,8 @@ public class IFrame implements Urls {
 
             // Switch back parent frame
             driver.switchTo().defaultContent();
-           driver.findElement(By.linkText("Elemental Selenium")).click();
-           Thread.sleep(1000);
+            driver.findElement(By.linkText("Elemental Selenium")).click();
+            Thread.sleep(1000);
 
         } catch (Exception e) {
             e.printStackTrace();
