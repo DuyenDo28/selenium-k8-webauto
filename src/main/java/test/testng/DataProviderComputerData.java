@@ -15,7 +15,7 @@ public class DataProviderComputerData {
 
     @DataProvider
     public ComputerData[] computerData() {
-        String fileLocation = "/src/test/java/test_data/computer/CheapComputerDataList.json";
+        String fileLocation = "/src/main/java/test_data/computer/CheapComputerDataList.json";
         return DataObjectBuilder.buildDataObjectFrom(fileLocation, ComputerData[].class);
     }
 

@@ -11,7 +11,7 @@ public class LaunchBrowser {
         String currentProjectLocation = System.getProperty("user.dir");
         String chromeDriverLocation = "";
         if (OS.isFamilyMac()) {
-            chromeDriverLocation = currentProjectLocation + "/src/test/resources/drivers/chromedriver";
+            chromeDriverLocation = currentProjectLocation + "/src/main/resources/drivers/chromedriver";
         }
 
         if (OS.isFamilyWindows()) {

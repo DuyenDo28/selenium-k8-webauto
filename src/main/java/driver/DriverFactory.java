@@ -18,7 +18,7 @@ public class DriverFactory {
         String currentProjectLocation = System.getProperty("user.dir");
         String chromeDriverLocation = "";
         if (OS.isFamilyMac()) {
-            chromeDriverLocation = currentProjectLocation + "/src/test/resources/drivers/chromedriver";
+            chromeDriverLocation = currentProjectLocation + "/src/main/resources/drivers/chromedriver";
         }
 
         if (OS.isFamilyWindows()) {
@@ -66,7 +66,8 @@ public class DriverFactory {
                     break;
             }
             try {
-                String hub = "http://localhost:4444/wd/hub";
+               // String hub = "http://localhost:4444/wd/hub";
+                String hub = System.getProperty("hub");
                 driver = new RemoteWebDriver(new URL(hub), desiredCapabilities);
                 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
             } catch (Exception e) {

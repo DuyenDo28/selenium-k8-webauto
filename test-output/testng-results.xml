@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="26" passed="20" failed="3" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T14:03:02 ICT" name="Regression" finished-at="2022-09-28T14:05:44 ICT" duration-ms="161696">
+    <groups>
+      <group name="smoke">
+        <method signature="DataProviderComputerData.testDataProvider(test_data.computer.ComputerData)[pri:0, instance:test.testng.DataProviderComputerData@6bf0219d]" name="testDataProvider" class="test.testng.DataProviderComputerData"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-09-28T14:03:02 ICT" name="Group 3" finished-at="2022-09-28T14:03:03 ICT" duration-ms="222">
+      <class name="test.testng.DataProviderComputerData">
+        <test-method signature="testDataProvider(test_data.computer.ComputerData)[pri:0, instance:test.testng.DataProviderComputerData@6bf0219d]" started-at="2022-09-28T14:03:03 ICT" name="testDataProvider" data-provider="computerData" finished-at="2022-09-28T14:03:03 ICT" duration-ms="99" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='Fast', ram='8 GB', os='null', hdd='320 GB', software='Image Viever'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(test_data.computer.ComputerData)[pri:0, instance:test.testng.DataProviderComputerData@6bf0219d]" started-at="2022-09-28T14:03:03 ICT" name="testDataProvider" data-provider="computerData" finished-at="2022-09-28T14:03:03 ICT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='Fast', ram='4 GB', os='null', hdd='400 GB', software='Office Suite'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(test_data.computer.ComputerData)[pri:0, instance:test.testng.DataProviderComputerData@6bf0219d]" started-at="2022-09-28T14:03:03 ICT" name="testDataProvider" data-provider="computerData" finished-at="2022-09-28T14:03:03 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='Fast', ram='2 GB', os='null', hdd='320 GB', software='Other Office Suite'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+      </class> <!-- test.testng.DataProviderComputerData -->
+      <class name="test.testng01.testng.TestNGHook01">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:02 ICT" name="beforeSuite" finished-at="2022-09-28T14:03:02 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:05:44 ICT" name="afterSuite" finished-at="2022-09-28T14:05:44 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.testng01.testng.TestNGHook01 -->
+      <class name="test.testng01.testng.TestNGHook02">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:02 ICT" name="beforeSuite" finished-at="2022-09-28T14:03:02 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:05:44 ICT" name="afterSuite" finished-at="2022-09-28T14:05:44 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.testng01.testng.TestNGHook02 -->
+      <class name="test.testng.TestNGHook02">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:02 ICT" name="beforeSuite" finished-at="2022-09-28T14:03:02 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:05:44 ICT" name="afterSuite" finished-at="2022-09-28T14:05:44 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.testng.TestNGHook02 -->
+      <class name="test.testng.TestNGHook01">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:02 ICT" name="beforeSuite" finished-at="2022-09-28T14:03:02 ICT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:05:44 ICT" name="afterSuite" finished-at="2022-09-28T14:05:44 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.testng.TestNGHook01 -->
+      <class name="test.testng.DataProviderTest">
+        <test-method signature="testDataProvider(test.testng.DataProviderTest$User)[pri:0, instance:test.testng.DataProviderTest@dd0c991]" started-at="2022-09-28T14:03:03 ICT" name="testDataProvider" data-provider="usernameData" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User{name='Teo', age=18}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(test.testng.DataProviderTest$User)[pri:0, instance:test.testng.DataProviderTest@dd0c991]" started-at="2022-09-28T14:03:03 ICT" name="testDataProvider" data-provider="usernameData" finished-at="2022-09-28T14:03:03 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User{name='Ti', age=19}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(test.testng.DataProviderTest$User)[pri:0, instance:test.testng.DataProviderTest@dd0c991]" started-at="2022-09-28T14:03:03 ICT" name="testDataProvider" data-provider="usernameData" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User{name='Tun', age=20}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+      </class> <!-- test.testng.DataProviderTest -->
+    </test> <!-- Group 3 -->
+    <test started-at="2022-09-28T14:03:02 ICT" name="Group 4" finished-at="2022-09-28T14:03:03 ICT" duration-ms="409">
+      <class name="test.testng01.testng.TestNGHook01">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:02 ICT" name="beforeTest" finished-at="2022-09-28T14:03:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:02 ICT" name="beforeClass" finished-at="2022-09-28T14:03:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:02 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSth()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:03 ICT" name="testSth" finished-at="2022-09-28T14:03:03 ICT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSth -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:03 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSthElse()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:03 ICT" name="testSthElse" finished-at="2022-09-28T14:03:03 ICT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSthElse -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:03 ICT" name="afterClass" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testng01.testng.TestNGHook01@f2ff811]" started-at="2022-09-28T14:03:03 ICT" name="afterTest" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.testng01.testng.TestNGHook01 -->
+      <class name="test.testng01.testng.TestNGHook02">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:02 ICT" name="beforeTest" finished-at="2022-09-28T14:03:02 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="beforeClass" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSth()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="testSth" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSth -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSthElse()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="testSthElse" finished-at="2022-09-28T14:03:03 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSthElse -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="afterClass" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testng01.testng.TestNGHook02@568ff82]" started-at="2022-09-28T14:03:03 ICT" name="afterTest" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.testng01.testng.TestNGHook02 -->
+      <class name="test.testng.TestNGTestOrder">
+        <test-method signature="test01()[pri:2, instance:test.testng.TestNGTestOrder@65b3f4a4]" started-at="2022-09-28T14:03:03 ICT" name="test01" finished-at="2022-09-28T14:03:03 ICT" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at test.testng.TestNGTestOrder.test01(TestNGTestOrder.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02()[pri:1, instance:test.testng.TestNGTestOrder@65b3f4a4]" started-at="2022-09-28T14:03:03 ICT" name="test02" finished-at="2022-09-28T14:03:03 ICT" depends-on-methods="test.testng.TestNGTestOrder.test01" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test.testng.TestNGTestOrder.test02() on instance test.testng.TestNGTestOrder@65b3f4a4 depends on not successfully finished methods 
+[test.testng.TestNGTestOrder.test01() on instance test.testng.TestNGTestOrder@65b3f4a4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test.testng.TestNGTestOrder.test02() on instance test.testng.TestNGTestOrder@65b3f4a4 depends on not successfully finished methods 
+[test.testng.TestNGTestOrder.test01() on instance test.testng.TestNGTestOrder@65b3f4a4]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:149)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+      </class> <!-- test.testng.TestNGTestOrder -->
+      <class name="test.testng.TestNGHook02">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:02 ICT" name="beforeTest" finished-at="2022-09-28T14:03:02 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="beforeClass" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSth()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="testSth" finished-at="2022-09-28T14:03:03 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSth -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSthElse()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="testSthElse" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSthElse -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="afterClass" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testng.TestNGHook02@60015ef5]" started-at="2022-09-28T14:03:03 ICT" name="afterTest" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.testng.TestNGHook02 -->
+      <class name="test.testng.TestNGHook01">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:02 ICT" name="beforeTest" finished-at="2022-09-28T14:03:02 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="beforeClass" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSth()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="testSth" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSth -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="beforeMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSthElse()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="testSthElse" finished-at="2022-09-28T14:03:03 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSthElse -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="afterMethod" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="afterClass" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.testng.TestNGHook01@55740540]" started-at="2022-09-28T14:03:03 ICT" name="afterTest" finished-at="2022-09-28T14:03:03 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.testng.TestNGHook01 -->
+    </test> <!-- Group 4 -->
+    <test started-at="2022-09-28T14:03:02 ICT" name="Group 2" finished-at="2022-09-28T14:03:15 ICT" duration-ms="12557">
+      <class name="test.global.footer.FooterTest">
+        <test-method is-config="true" signature="initBrowserSession(java.lang.String)[pri:0, instance:test.global.footer.FooterTest@23348b5d]" started-at="2022-09-28T14:03:02 ICT" name="initBrowserSession" description="Init browser session" finished-at="2022-09-28T14:03:02 ICT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserSession -->
+        <test-method signature="testFooterCategoryPage()[pri:0, instance:test.global.footer.FooterTest@23348b5d]" started-at="2022-09-28T14:03:02 ICT" name="testFooterCategoryPage" finished-at="2022-09-28T14:03:12 ICT" duration-ms="9849" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[ Demo taking screenshot when test is failed!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError:  Demo taking screenshot when test is failed!
+at org.testng.Assert.fail(Assert.java:110)
+at test.global.footer.FooterTest.testFooterCategoryPage(FooterTest.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterCategoryPage -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.FooterTest@23348b5d]" started-at="2022-09-28T14:03:12 ICT" name="captureScreenshot" finished-at="2022-09-28T14:03:13 ICT" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFooterCategoryPage status=FAILURE method=FooterTest.testFooterCategoryPage()[pri:0, instance:test.global.footer.FooterTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="testFooterHomePage()[pri:0, instance:test.global.footer.FooterTest@23348b5d]" started-at="2022-09-28T14:03:13 ICT" name="testFooterHomePage" finished-at="2022-09-28T14:03:14 ICT" duration-ms="1236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[ERR] Actual and expected hrefs are different!: Lists differ at element [0]: http://demowebshop.tricentis.com/sitemap != https://demowebshop.tricentis.com/sitemap expected [http://demowebshop.tricentis.com/sitemap] but found [https://demowebshop.tricentis.com/sitemap]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [ERR] Actual and expected hrefs are different!: Lists differ at element [0]: http://demowebshop.tricentis.com/sitemap != https://demowebshop.tricentis.com/sitemap expected [http://demowebshop.tricentis.com/sitemap] but found [https://demowebshop.tricentis.com/sitemap]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:1479)
+at test_flows.global.FooterTestFlow.verifyFooterColumn(FooterTestFlow.java:132)
+at test_flows.global.FooterTestFlow.verifyInformationColumn(FooterTestFlow.java:48)
+at test_flows.global.FooterTestFlow.verifyFooterComponent(FooterTestFlow.java:35)
+at test.global.footer.FooterTest.testFooterHomePage(FooterTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterHomePage -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.FooterTest@23348b5d]" started-at="2022-09-28T14:03:14 ICT" name="captureScreenshot" finished-at="2022-09-28T14:03:14 ICT" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFooterHomePage status=FAILURE method=FooterTest.testFooterHomePage()[pri:0, instance:test.global.footer.FooterTest@23348b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="closeBrowserSession()[pri:0, instance:test.global.footer.FooterTest@23348b5d]" started-at="2022-09-28T14:03:14 ICT" name="closeBrowserSession" finished-at="2022-09-28T14:03:15 ICT" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- test.global.footer.FooterTest -->
+    </test> <!-- Group 2 -->
+    <test started-at="2022-09-28T14:03:02 ICT" name="Group 1" finished-at="2022-09-28T14:05:44 ICT" duration-ms="161696">
+      <class name="test.global.footer.computer.BuyingStandardComputerTest">
+        <test-method signature="testStandardComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889]" started-at="2022-09-28T14:04:33 ICT" name="testStandardComputerBuying" data-provider="computerData" finished-at="2022-09-28T14:04:57 ICT" duration-ms="23682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='2.2GHz', ram='8GB', os='Ubuntu', hdd='400 GB', software='Microsoft Office'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStandardComputerBuying -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889]" started-at="2022-09-28T14:04:57 ICT" name="captureScreenshot" finished-at="2022-09-28T14:04:57 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStandardComputerBuying status=SUCCESS method=BuyingStandardComputerTest.testStandardComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="testStandardComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889]" started-at="2022-09-28T14:04:57 ICT" name="testStandardComputerBuying" data-provider="computerData" finished-at="2022-09-28T14:05:21 ICT" duration-ms="23935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='2.5GHz', ram='4GB', os='Windows 7', hdd='320 GB', software='Acrobat Reader'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStandardComputerBuying -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889]" started-at="2022-09-28T14:05:21 ICT" name="captureScreenshot" finished-at="2022-09-28T14:05:21 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStandardComputerBuying status=SUCCESS method=BuyingStandardComputerTest.testStandardComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="testStandardComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889]" started-at="2022-09-28T14:05:21 ICT" name="testStandardComputerBuying" data-provider="computerData" finished-at="2022-09-28T14:05:43 ICT" duration-ms="22362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='2.2GHz', ram='2GB', os='Windows 10', hdd='320 GB', software='Total Commander'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStandardComputerBuying -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889]" started-at="2022-09-28T14:05:43 ICT" name="captureScreenshot" finished-at="2022-09-28T14:05:43 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStandardComputerBuying status=SUCCESS method=BuyingStandardComputerTest.testStandardComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingStandardComputerTest@15ca7889] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+      </class> <!-- test.global.footer.computer.BuyingStandardComputerTest -->
+      <class name="test.global.footer.computer.BuyingCheapComputerTest">
+        <test-method is-config="true" signature="initBrowserSession(java.lang.String)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:03:02 ICT" name="initBrowserSession" description="Init browser session" finished-at="2022-09-28T14:03:02 ICT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowserSession -->
+        <test-method signature="testCheapComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:03:03 ICT" name="testCheapComputerBuying" data-provider="computerData" finished-at="2022-09-28T14:03:48 ICT" duration-ms="45719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='Fast', ram='8 GB', os='null', hdd='320 GB', software='Image Viever'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheapComputerBuying -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:03:48 ICT" name="captureScreenshot" finished-at="2022-09-28T14:03:48 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheapComputerBuying status=SUCCESS method=BuyingCheapComputerTest.testCheapComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="testCheapComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:03:48 ICT" name="testCheapComputerBuying" data-provider="computerData" finished-at="2022-09-28T14:04:11 ICT" duration-ms="22665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='Fast', ram='4 GB', os='null', hdd='400 GB', software='Office Suite'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheapComputerBuying -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:04:11 ICT" name="captureScreenshot" finished-at="2022-09-28T14:04:11 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheapComputerBuying status=SUCCESS method=BuyingCheapComputerTest.testCheapComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method signature="testCheapComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:04:11 ICT" name="testCheapComputerBuying" data-provider="computerData" finished-at="2022-09-28T14:04:33 ICT" duration-ms="22114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ComputerData{processorType='Fast', ram='2 GB', os='null', hdd='320 GB', software='Other Office Suite'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheapComputerBuying -->
+        <test-method is-config="true" signature="captureScreenshot(org.testng.ITestResult)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:04:33 ICT" name="captureScreenshot" finished-at="2022-09-28T14:04:33 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheapComputerBuying status=SUCCESS method=BuyingCheapComputerTest.testCheapComputerBuying(test_data.computer.ComputerData)[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method is-config="true" signature="closeBrowserSession()[pri:0, instance:test.global.footer.computer.BuyingCheapComputerTest@3c0be339]" started-at="2022-09-28T14:05:43 ICT" name="closeBrowserSession" finished-at="2022-09-28T14:05:44 ICT" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserSession -->
+      </class> <!-- test.global.footer.computer.BuyingCheapComputerTest -->
+    </test> <!-- Group 1 -->
+  </suite> <!-- Regression -->
+</testng-results>

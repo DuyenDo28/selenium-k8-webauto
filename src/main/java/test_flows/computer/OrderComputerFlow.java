@@ -141,7 +141,7 @@ public class OrderComputerFlow<T extends ComputerEssentialComponent> {
     }
 
     public void inputBillingAddress() {
-        String defaultCheckoutUserJSONLoc = "/src/test/java/test_data/DefaultCheckoutUser.json";
+        String defaultCheckoutUserJSONLoc = "/src/main/java/test_data/DefaultCheckoutUser.json";
         defaultCheckoutUser = DataObjectBuilder.buildDataObjectFrom(defaultCheckoutUserJSONLoc, UserDataObject.class);
         CheckOutPage checkOutPage = new CheckOutPage(driver);
         BillingAddressComponent billingAddressComp = checkOutPage.billingAddressComp();

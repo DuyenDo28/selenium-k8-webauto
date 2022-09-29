@@ -15,8 +15,8 @@ public class TestGSON {
 
     private static void testDataBuilder() {
 
-        //String fileLocation = "/src/test/java/test_data/computer/CheapComputerDataList.json";
-        String fileLocation = "/src/test/java/test_data/computer/CheapComputerData.json";
+        //String fileLocation = "/src/main/java/test_data/computer/CheapComputerDataList.json";
+        String fileLocation = "/src/main/java/test_data/computer/CheapComputerData.json";
        // ComputerData[] computerData = DataObjectBuilder.buildDataObjectFrom(fileLocation, ComputerData[].class);
         ComputerData computerData = DataObjectBuilder.buildDataObjectFrom(fileLocation, ComputerData.class);
         System.out.println(computerData);

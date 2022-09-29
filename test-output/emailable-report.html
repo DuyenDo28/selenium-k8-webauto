@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Regression</th></tr>
+<tr><td><a href="#t0">Group 3</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">222</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Group 4</a></td><td class="num">8</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">409</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Group 2</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">12,557</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Group 1</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">161,696</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">20</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">3</th><th class="num">174,884</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Group 3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">test.testng.DataProviderComputerData</td><td><a href="#m0">testDataProvider</a></td><td rowspan="3">1664348583161</td><td rowspan="3">2</td></tr><tr class="passedeven"><td><a href="#m1">testDataProvider</a></td></tr><tr class="passedeven"><td><a href="#m2">testDataProvider</a></td></tr><tr class="passedodd"><td rowspan="3">test.testng.DataProviderTest</td><td><a href="#m3">testDataProvider</a></td><td rowspan="3">1664348583184</td><td rowspan="3">2</td></tr><tr class="passedodd"><td><a href="#m4">testDataProvider</a></td></tr><tr class="passedodd"><td><a href="#m5">testDataProvider</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Group 4 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">test.testng.TestNGTestOrder</td><td><a href="#m6">test01</a></td><td rowspan="1">1664348583361</td><td rowspan="1">2</td></tr><tr><th colspan="4">Group 4 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">test.testng.TestNGTestOrder</td><td><a href="#m7">test02</a></td><td rowspan="1">1664348583372</td><td rowspan="1">0</td></tr><tr><th colspan="4">Group 4 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">test.testng.TestNGHook01</td><td><a href="#m8">testSth</a></td><td rowspan="1">1664348583284</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m9">testSthElse</a></td><td rowspan="1">1664348583305</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="2">test.testng.TestNGHook02</td><td><a href="#m10">testSth</a></td><td rowspan="1">1664348583327</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m11">testSthElse</a></td><td rowspan="1">1664348583347</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="2">test.testng01.testng.TestNGHook01</td><td><a href="#m12">testSth</a></td><td rowspan="1">1664348583044</td><td rowspan="1">92</td></tr><tr class="passedeven"><td><a href="#m13">testSthElse</a></td><td rowspan="1">1664348583166</td><td rowspan="1">4</td></tr><tr class="passedodd"><td rowspan="2">test.testng01.testng.TestNGHook02</td><td><a href="#m14">testSth</a></td><td rowspan="1">1664348583221</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m15">testSthElse</a></td><td rowspan="1">1664348583249</td><td rowspan="1">6</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Group 2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">test.global.footer.FooterTest</td><td><a href="#m16">testFooterCategoryPage</a></td><td rowspan="1">1664348582997</td><td rowspan="1">9849</td></tr><tr class="failedeven"><td><a href="#m17">testFooterHomePage</a></td><td rowspan="1">1664348593095</td><td rowspan="1">1236</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Group 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">test.global.footer.computer.BuyingCheapComputerTest</td><td><a href="#m18">testCheapComputerBuying</a></td><td rowspan="3">1664348583037</td><td rowspan="3">45719</td></tr><tr class="passedeven"><td><a href="#m19">testCheapComputerBuying</a></td></tr><tr class="passedeven"><td><a href="#m20">testCheapComputerBuying</a></td></tr><tr class="passedodd"><td rowspan="3">test.global.footer.computer.BuyingStandardComputerTest</td><td><a href="#m21">testStandardComputerBuying</a></td><td rowspan="3">1664348697277</td><td rowspan="3">23935</td></tr><tr class="passedodd"><td><a href="#m22">testStandardComputerBuying</a></td></tr><tr class="passedodd"><td><a href="#m23">testStandardComputerBuying</a></td></tr></tbody>
+</table>
+<h2>Group 3</h2><h3 id="m0">test.testng.DataProviderComputerData#testDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;Fast&apos;, ram=&apos;2 GB&apos;, os=&apos;null&apos;, hdd=&apos;320 GB&apos;, software=&apos;Other Office Suite&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">test.testng.DataProviderComputerData#testDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;Fast&apos;, ram=&apos;8 GB&apos;, os=&apos;null&apos;, hdd=&apos;320 GB&apos;, software=&apos;Image Viever&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">test.testng.DataProviderComputerData#testDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;Fast&apos;, ram=&apos;4 GB&apos;, os=&apos;null&apos;, hdd=&apos;400 GB&apos;, software=&apos;Office Suite&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">test.testng.DataProviderTest#testDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User{name=&apos;Ti&apos;, age=19}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">test.testng.DataProviderTest#testDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User{name=&apos;Tun&apos;, age=20}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">test.testng.DataProviderTest#testDataProvider</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>User{name=&apos;Teo&apos;, age=18}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Group 4</h2><h3 id="m6">test.testng.TestNGTestOrder#test01</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at test.testng.TestNGTestOrder.test01(TestNGTestOrder.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">test.testng.TestNGTestOrder#test02</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method test.testng.TestNGTestOrder.test02() on instance test.testng.TestNGTestOrder@65b3f4a4 depends on not successfully finished methods 
+[test.testng.TestNGTestOrder.test01() on instance test.testng.TestNGTestOrder@65b3f4a4]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 9 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">test.testng.TestNGHook01#testSth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">test.testng.TestNGHook01#testSthElse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">test.testng.TestNGHook02#testSth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">test.testng.TestNGHook02#testSthElse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">test.testng01.testng.TestNGHook01#testSth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">test.testng01.testng.TestNGHook01#testSthElse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">test.testng01.testng.TestNGHook02#testSth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">test.testng01.testng.TestNGHook02#testSthElse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Group 2</h2><h3 id="m16">test.global.footer.FooterTest#testFooterCategoryPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError:  Demo taking screenshot when test is failed!
+	at test.global.footer.FooterTest.testFooterCategoryPage(FooterTest.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">test.global.footer.FooterTest#testFooterHomePage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: [ERR] Actual and expected hrefs are different!: Lists differ at element [0]: http://demowebshop.tricentis.com/sitemap != https://demowebshop.tricentis.com/sitemap expected [http://demowebshop.tricentis.com/sitemap] but found [https://demowebshop.tricentis.com/sitemap]
+	at test_flows.global.FooterTestFlow.verifyFooterColumn(FooterTestFlow.java:132)
+	at test_flows.global.FooterTestFlow.verifyInformationColumn(FooterTestFlow.java:48)
+	at test_flows.global.FooterTestFlow.verifyFooterComponent(FooterTestFlow.java:35)
+	at test.global.footer.FooterTest.testFooterHomePage(FooterTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Group 1</h2><h3 id="m18">test.global.footer.computer.BuyingCheapComputerTest#testCheapComputerBuying</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;Fast&apos;, ram=&apos;8 GB&apos;, os=&apos;null&apos;, hdd=&apos;320 GB&apos;, software=&apos;Image Viever&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">test.global.footer.computer.BuyingCheapComputerTest#testCheapComputerBuying</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;Fast&apos;, ram=&apos;4 GB&apos;, os=&apos;null&apos;, hdd=&apos;400 GB&apos;, software=&apos;Office Suite&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">test.global.footer.computer.BuyingCheapComputerTest#testCheapComputerBuying</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;Fast&apos;, ram=&apos;2 GB&apos;, os=&apos;null&apos;, hdd=&apos;320 GB&apos;, software=&apos;Other Office Suite&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">test.global.footer.computer.BuyingStandardComputerTest#testStandardComputerBuying</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;2.5GHz&apos;, ram=&apos;4GB&apos;, os=&apos;Windows 7&apos;, hdd=&apos;320 GB&apos;, software=&apos;Acrobat Reader&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">test.global.footer.computer.BuyingStandardComputerTest#testStandardComputerBuying</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;2.2GHz&apos;, ram=&apos;8GB&apos;, os=&apos;Ubuntu&apos;, hdd=&apos;400 GB&apos;, software=&apos;Microsoft Office&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">test.global.footer.computer.BuyingStandardComputerTest#testStandardComputerBuying</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>ComputerData{processorType=&apos;2.2GHz&apos;, ram=&apos;2GB&apos;, os=&apos;Windows 10&apos;, hdd=&apos;320 GB&apos;, software=&apos;Total Commander&apos;}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

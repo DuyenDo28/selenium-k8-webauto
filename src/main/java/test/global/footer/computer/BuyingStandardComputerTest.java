@@ -2,7 +2,6 @@ package test.global.footer.computer;
 import models.components.order.StandardComputerComponent;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import test.BaseTest;
 import test_data.CreditCardType;
@@ -33,7 +32,7 @@ public class BuyingStandardComputerTest extends BaseTest implements Urls {
 
     @DataProvider
     public ComputerData[] computerData() {
-        String fileLocation = "/src/test/java/test_data/computer/StandardComputerDataList.json";
+        String fileLocation = "/src/main/java/test_data/computer/StandardComputerDataList.json";
         return DataObjectBuilder.buildDataObjectFrom(fileLocation, ComputerData[].class);
     }
 }
